@@ -1,0 +1,19 @@
+// assets color
+$theme-color: rgb(255, 166, 0);
+
+.container {
+    padding: 2rem;
+}
+
+.btn {
+    border: none;
+  padding: 1rem;
+  background: $theme-color;
+  font-family: 'Noto Sans Thai', 'Noto Sans';
+  text-decoration: none;
+}
+
+.card {
+  background: rgb(240, 240, 240);
+  padding: 2rem;
+}

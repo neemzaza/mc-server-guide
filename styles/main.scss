@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+// assets color
+$theme-color: rgb(255, 166, 0);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans Thai', 'Noto Sans';
+  overflow: hidden;
+  display: flex;
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-page {
+}
+
+.page {
+  overflow: scroll;
+  width: 100vw;
+  height: 100vh;
+}
+
+.highlight {
+  color: $theme-color;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.title {
+  font-size: calc(1rem + 6vw);
+}
+
+.fixed-end {
+  position: fixed;
+  bottom: 0;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  width: 100vw;
+  height: auto;
+  padding: 1rem;
+}
+
+.btn {
+  &.btn-start {
+    color: #000;
+    font-size: 3rem;
+  }
+
+  &.btn-next {
+    color: #000;
+    font-size: 1rem;
+  }
+}
+
+.btn-section {
+  text-align: end;
+}
+
+.choice {
+  background: rgb(240, 240, 240);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: .2s;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.active {
+    background: $theme-color;
+  }
+}
+
+.input-sec {
+  background: rgb(240, 240, 240);
+  padding-left: 1rem;
+  width: 11.75rem;
+}
+
+.ver-sel {
+  border: none;
+  outline: none;
+  background: rgb(240, 240, 240);
+  padding: 1rem 0;
+  font-size: 1rem;
+}
+
+.code {
+  outline: none;
+  border: none;
+  background: rgb(240, 240, 240);
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.minram,.maxram {
+  outline: none;
+  border: none;
+  background: rgb(240, 240, 240);
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.bigicon {
+  font-size: 6rem;
+}
+.flex {
+  display: flex;
+}
+
+.card.info {
+  margin-left: 1rem;
+  min-width: 10rem;
+  max-width: 10rem;
+}
+
+.cardrow {
+  overflow-x: scroll;
+}
